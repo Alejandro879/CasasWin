@@ -3947,3 +3947,46 @@ input[type=range]::-ms-fill-upper {
 
 
 
+
+li.ui-menu-item {
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+ul#ui-id-1 {
+    background: white;
+    border-radius: 20px;
+    width: 361px!important;
+    list-style: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0px;
+}
+
+li.ui-menu-item:hover {
+    background: #28adb5;
+    color: white;
+}
+
+.ui-autocomplete{
+   background: white;
+    border-radius: 20px;
+    width: 361px!important;
+    list-style: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.header .card {
+    height: 49px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 2px 3px #ccc;
+    background: #cdb94a;
+    color: white;
+}
+
+.header .card .card-body{
+  padding: 14px 1.25rem;
+}
