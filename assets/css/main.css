@@ -3990,3 +3990,44 @@ li.ui-menu-item:hover {
 .header .card .card-body{
   padding: 14px 1.25rem;
 }
+
+.modal-header {
+    border: none;
+}
+
+.modal-body h3 {
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 35px;
+    color: #3a1b2fa6;
+}
+
+input.form-control {
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    margin: 31px auto;
+}
+
+.modal-body button.btn.btn-info.btn-block {
+    width: 200px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #cfab1e!important;
+    border-color: #cfab1e!important;
+    box-shadow: 1px 2px 3px #cfab1e14, 1px 5px 5px #cfab1e;
+}
+
+
+.link{
+  cursor: pointer;
+}
+
+#mesajeM .modal-content {
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
