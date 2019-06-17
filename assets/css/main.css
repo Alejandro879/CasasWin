@@ -1246,7 +1246,8 @@ btn .caret {
         height: 100%;
         padding: .9rem 1rem; }
   .ibox .ibox-body {
-    padding: 15px 20px 20px 20px; }
+    padding: 15px 0% 20px 2%;
+    display: inline-table; }
   .ibox .ibox-footer {
     padding: 10px 0;
     border-top: 1px solid #eee; }
@@ -2896,6 +2897,7 @@ a.text-danger:hover, a.text-danger:focus {
     .header .navbar-search .search-icon {
       position: absolute;
       top: 0;
+      left: 20px;
       height: 100%;
       width: 40px;
       display: -webkit-box;
@@ -3832,6 +3834,7 @@ input[type=range]::-ms-fill-upper {
     border-radius: 33px 0px 0px 33px;
         position: relative;
     left: 24px;
+        transition: all .3s;
 }
 
 
@@ -3840,6 +3843,11 @@ input[type=range]::-ms-fill-upper {
     align-items: center;
 }
 
+#cont-invoce .contenido-a input[type="submit"]:hover {
+    box-shadow: 1px 2px 3px #ffffff, -1px -2px 3px #ffffff;
+    color: #8BC34A;
+    text-shadow: 2px 6px 3px #8bc34ab3;
+}
 
 #cont-invoce .contenido-a .contenido.buqueda img{
     margin-left: 20px;
@@ -3903,9 +3911,8 @@ input[type=range]::-ms-fill-upper {
 
 
 .cont-cajas{
-    width: 32%;
+        width: 32%;
     overflow: hidden;
-    float: left;
     margin: 1% 1% 0px 0px;
     display: inline-block;
     
