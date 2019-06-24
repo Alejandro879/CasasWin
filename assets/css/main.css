@@ -3897,7 +3897,7 @@ input[type=range]::-ms-fill-upper {
       margin: auto;
     width: 437px;
     position: absolute;
-    left: calc(50% + 250px );
+    left: calc(50vw - 220px);
 }
 
 
@@ -4276,7 +4276,7 @@ button.animated.fadeInLeftBig.delay-1s.link:hover {
 
 .ui-autocomplete
 {
-  z-index: 999;
+  z-index: 9999;
 }
 
 .mensajeTotorial span{
@@ -4299,7 +4299,7 @@ div.page-brand > a > span.brand{
 }
 
 span.brand img{
-  height: 173px;
+  height: 150px;
     position: relative;
     top: 4px;
 }
