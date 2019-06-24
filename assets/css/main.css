@@ -3684,6 +3684,10 @@ input[type='range']:focus {
     height: 31px;
 }
 
+.nav-2-level li.ran {
+    height: 71px;
+}
+
 input[type='range'],
 input[type='range']::-webkit-slider-runnable-track,
 input[type='range']::-webkit-slider-thumb {
@@ -4306,4 +4310,18 @@ span.brand img{
 .btnss:hover {
     background: #f8be30!important;
     color: white!important;
+}
+
+span.irs.irs--round.js-irs-0.irs-with-grid {
+    width: 204px;
+    position: relative;
+    left: 5px;
+}
+
+span.irs-max {
+    color: white!important;
+}
+
+span.irs-min{
+  color: white!important;
 }
