@@ -2894,11 +2894,14 @@ a.text-danger:hover, a.text-danger:focus {
       .header .navbar-toolbar .dropdown-notification a.dropdown-toggle .notify-signal::before {
         border-color: #f75a5f; }
   .header .navbar-search {
-    padding: 0 15px; }
+    cursor: pointer;
+    padding: 0 15px; width: 486px;
+    position: relative;
+    left: -10px;}
     .header .navbar-search .search-icon {
       position: absolute;
       top: 0;
-      left: 20px;
+      left: 47px;
       height: 100%;
       width: 40px;
       display: -webkit-box;
@@ -3897,7 +3900,7 @@ input[type=range]::-ms-fill-upper {
       margin: auto;
     width: 437px;
     position: absolute;
-    left: calc(50vw - 220px);
+    left: calc(50vw - 206px);
 }
 
 
@@ -4110,8 +4113,9 @@ input.form-control {
 }
 
 .div-range-cont{
-  width: 230px;
+      width: 80%;
     position: relative;
+    margin: auto;
 
 }
 
@@ -4313,9 +4317,7 @@ span.brand img{
 }
 
 span.irs.irs--round.js-irs-0.irs-with-grid {
-    width: 204px;
     position: relative;
-    left: 5px;
 }
 
 span.irs-max {
