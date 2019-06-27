@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+@font-face{
+  font-family: "casaswin2";
+  src: url('../Century Gothic.ttf');
+}
+
+@font-face{
+  font-family: "casaswin";
+  src: url('../Harabara.ttf');
+}
+
+/* *{font-family: "casaswin2"!important} */ 
 .clf:after, .clf:before {
   content: '';
   display: table; }
@@ -3684,13 +3695,26 @@ input[type='range']:focus {
 }
 
 .nav-2-level li {
-    height: 31px;
+    height: 36px;
 }
 
 .nav-2-level li.ran {
     height: 71px;
 }
-
+.mensajeTotorial.animated.fadeInUp.s2 {
+    top: 17px;
+    right: -170px;
+    padding: 10px;
+}
+span.cant-tutorial.badge.badge-danger.badge-circle.m-b-5 {
+    background: #FF9800;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    right: 8px;
+}
 input[type='range'],
 input[type='range']::-webkit-slider-runnable-track,
 input[type='range']::-webkit-slider-thumb {
@@ -3768,16 +3792,20 @@ input[type=range]::-ms-fill-upper {
 
 /* invoce */
 #cont-invoce .logo-cont{
-    width: 200px;
+  width: 200px;
     height: 66px;
-    background: white;
+    /* background: white; */
     padding: 15px 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     /* border-radius: 16px; */
-    position: relative;
-    top: 68px;
-    left: 40px;
+    position: absolute;
+    top: 40px;
+    right: 80px;
 }
 
 #cont-invoce .logo-cont img{
@@ -3862,6 +3890,11 @@ input[type=range]::-ms-fill-upper {
     font-size: 18px;
     text-align: center; 
 }
+#cont-invoce .contenido-a input[type="search"]::-webkit-input-placeholder {
+  color: white;
+}
+#cont-invoce .contenido-a input[type="search"]::-moz-placeholder{ color: white }
+#cont-invoce .contenido-a input[type="search"]::ms-input-placeholder{color: white}
 
 #cont-invoce .contenido-a input[type="submit"] {
     background: white;
@@ -3924,13 +3957,14 @@ input[type=range]::-ms-fill-upper {
 
 
 .time-cs{
-      position: absolute;
-    right: 20px;
+        position: absolute;
+    right: calc(50% - 116px );
     background: #00000063;
     color: aqua;
     width: 200px;
     padding: 10px;
     border-radius: 36px;
+    bottom: 50px;
 }
 
 
@@ -4256,6 +4290,7 @@ button.animated.fadeInLeftBig.delay-1s.link:hover {
         top: 17px;
     right: -25px;
         transition: all .7s;
+        font-family: "casaswin2"!important
 }
 
 #cont-invoce .contenido-a{
@@ -4326,4 +4361,18 @@ span.irs-max {
 
 span.irs-min{
   color: white!important;
+}
+
+.img-back {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.img-back img {
+    width: 30vw;
+    height: 50vh;
+    transform: rotate3d(1, 1, 0, 180deg);
+    opacity: .6;
+    position: relative;
+    top: -7vh;
 }
