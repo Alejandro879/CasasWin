@@ -10,9 +10,18 @@ _Se listan los botones con su respectivos codigo CSS._
 
 ### Ver Mapa 
 
-![Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/1.png)
+![Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/vermapa.PNG)
 
-* .boton-ver-mapa
+* Codigo HTML 
+
+```
+<div class="boton-ver-mapa">
+	<a class="hvr-overline-reveal" href="javascript:;" title="">Ver mapa</a>
+</div>
+
+```
+
+* Codigo CSS
 
 ```
 .boton-ver-mapa{
@@ -34,7 +43,6 @@ _Se listan los botones con su respectivos codigo CSS._
 
 
 ```
-* .efecto hover
 
 ```
 .boton-ver-mapa:hover {
@@ -45,84 +53,237 @@ _Se listan los botones con su respectivos codigo CSS._
 
 ```
 
-### Instalación 🔧
+```
+.boton-ver-mapa  >  a.hvr-overline-reveal {
+    text-align: center;
+    margin: auto;
+    color: #000000cc;
+    font-size: 18px;
+    font-weight: 600;
+}
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
 
 ```
-Da un ejemplo
-```
 
-_Y repite_
+### Menu Principal
 
-```
-hasta finalizar
-```
+![Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/menu.PNG)
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+* Codigo HTML 
 
 ```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
+<button class="animated fadeInLeftBig  link" type="button"> Lee un snack 
+	<img alt="" class="galleta " src="./assets/img/logos/Galleta.png">
+</button>
 
 ```
-Da un ejemplo
+
+* Codigo CSS
+
+```
+#btn-menu-principal{
+    border: 3px solid white;
+    border-left: 0px;
+    background: #75365d;
+    outline: none;
+    height: 57px;
+    display: inline-block;
+    width: 200px;
+    border-radius: 0px 30px 30px 0px;
+    color: white;
+    font-weight: 600;
+    margin: 8px 0px;
+    text-align: left;
+    padding-left: 17px;
+    transition: all .4s;
+}
+
 ```
 
-## Deployment 📦
+```
+#btn-menu-principal:hover {
+    background: #f8be30!important;
+    color: white!important;
+}
 
-_Agrega notas adicionales sobre como hacer deploy_
+```
 
-## Construido con 🛠️
+### Enviar Correo
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+![Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/enviarcorreo.PNG)
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* Codigo HTML 
 
-## Contribuyendo 🖇️
+```
+<button class="btn btn-info btn-block link" type="submit">Submit</button>
+
+```
+
+* Codigo CSS
+
+```
+.boton-correo {
+    width: 200px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #cfab1e!important;
+    border-color: #cfab1e!important;
+    box-shadow: 1px 2px 3px #cfab1e14, 1px 5px 5px #cfab1e;
+}
+
+```
+
+```
+#btn-menu-principal:hover {
+    background: #f8be30!important;
+    color: white!important;
+}
+
+```
+
+## Cajon Busqueda
+
+_CSS Cajones de busquedas._
+
+## Cajon header
+
+![Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/cajonBusqueda.PNG)
+
+* Codigo HTML 
+
+```
+<div class="rel">
+   <span class="search-icon"><i class="ti-search"></i></span>
+   <input class="form-control ui-autocomplete-input" id="tags2" placeholder="Busca aquí..." type="search" autocomplete="off">
+</div>
+
+```
+
+* Codigo CSS
+
+```
+.rel, .p-relative {
+    position: relative !important;
+}
+
+```
+
+```
+.header .navbar-search .search-icon {
+    position: absolute;
+    top: 0;
+    left: 47px;
+    height: 100%;
+    width: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #6d7c85;
+}
+
+```
 
 
-## Wiki 📖
+```
+.header .navbar-search .form-control {
+    border: 0;
+    padding: .65rem 1.25rem .65rem 40px;
+    border-radius: 200px !important;
+    background-color: #f4f5f9;
+    border-color: #f4f5f9;
+    font-size: 13px;
+}
 
-## Versionado 📌
+```
 
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+## Cajon home
 
-## Autores ✒️
+![Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/cajonBusqueda.PNG)
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+* Codigo HTML 
 
-* **Luis Alvarado** - *FullStack* - [Alejandro879](https://github.com/Alejandro879)
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+```
+<div class="contenido buqueda ">
+    <input id="tags" name="" placeholder="¿Donde buscas tu proxima inversion?" type="search" value="" class="ui-autocomplete-input ng-pristine ng-valid ng-touched" autocomplete="off" ng-reflect-name="" ng-reflect-model="">
+    <img alt="" class="link" src="./assets/img/logos/buscar.png">
+</div>
+```
 
-## Licencia 📄
+* Codigo CSS
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+```
+.contenido-a .contenido.buqueda {
+    margin-left: 20px;
+    height: 33px;
+}
 
-## Expresiones de Gratitud 🎁
+```
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+```
+.contenido-a input[type="search"] {
+    color: white;
+    background: transparent;
+    border: 3px solid white;
+    width: 350px;
+    padding: 7px 8px;
+    font-weight: 600;
+    border-radius: 33px 0px 0px 33px;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+}
+
+```
+
+
+```
+#cont-invoce .contenido-a .contenido.buqueda img {
+    margin-left: 20px;
+    height: 33px;
+}
+
+```
+
+## Fondos
+
+_CSS Fondo: Por lo general se trabajo en fondo pagina #fff solo explicamos lo que se modifico._
+
+### Pantalla home
 
 
 
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+![Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/fondo.PNG)
+
+
+* Codigo HTML 
+
+```
+<div class="page-heading" id="cont-invoce">
+  
+</div>
+```
+
+* Codigo CSS
+
+```
+#cont-invoce {
+    background: rgba(41,131,167,0.85);
+    background: radial-gradient(at center center, #2983a885 0%, rgba(41, 131, 168, 0.85) 55%, rgb(41, 131, 168) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2983a7', endColorstr='#7bb1ef', GradientType=1 );
+    min-height: 100vh;
+}
+```
+
+```
+.page-heading {
+    padding: 0 5px;
+}
+
+```
+
