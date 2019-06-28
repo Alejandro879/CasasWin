@@ -10,7 +10,7 @@ _Se listan los botones con su respectivos codigo CSS._
 
 ### Ver Mapa 
 
-![Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/vermapa.PNG)
+[Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/vermapa.PNG)
 
 * Codigo HTML 
 
@@ -67,7 +67,7 @@ _Se listan los botones con su respectivos codigo CSS._
 
 ### Menu Principal
 
-![Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/menu.PNG)
+[Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/menu.PNG)
  
 * Codigo HTML 
 
@@ -110,7 +110,7 @@ _Se listan los botones con su respectivos codigo CSS._
 
 ### Enviar Correo
 
-![Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/enviarcorreo.PNG)
+[Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/enviarcorreo.PNG)
 
 * Codigo HTML 
 
@@ -147,7 +147,7 @@ _CSS Cajones de busquedas._
 
 ## Cajon header
 
-![Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/cajonBusqueda.PNG)
+[Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/cajonBusqueda.PNG)
 
 * Codigo HTML 
 
@@ -204,7 +204,7 @@ _CSS Cajones de busquedas._
 
 ## Cajon home
 
-![Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/cajonBusqueda.PNG)
+[Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/cajonBusqueda.PNG)
 
 * Codigo HTML 
 
@@ -258,7 +258,7 @@ _CSS Fondo: Por lo general se trabajo en fondo pagina #fff solo explicamos lo qu
 
 
 
-![Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/fondo.PNG)
+[Click aca para ver imagen](https://alejandro879.github.io/CasasWin/assets/img/tutocss/fondo.PNG)
 
 
 * Codigo HTML 
